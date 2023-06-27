@@ -8,7 +8,6 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import pages.Project4Page;
-import sun.font.FontRunIterator;
 import utils.Driver;
 
 import java.util.List;
