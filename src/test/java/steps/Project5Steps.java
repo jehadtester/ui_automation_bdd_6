@@ -1,5 +1,6 @@
 package steps;
 
+<<<<<<< HEAD
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
@@ -12,17 +13,30 @@ import utils.Driver;
 
 import java.util.List;
 
+=======
+import io.cucumber.java.Before;
+import org.openqa.selenium.WebDriver;
+import pages.Project4Page;
+import pages.Project5Page;
+import utils.Driver;
+
+>>>>>>> origin/master
 public class Project5Steps {
 
     WebDriver driver;
     Project5Page project5Page;
 
     @Before
+<<<<<<< HEAD
     public void setDriver() {
+=======
+    public void setDriver(){
+>>>>>>> origin/master
         driver = Driver.getDriver();
         project5Page = new Project5Page();
     }
 
+<<<<<<< HEAD
     //TASK 1
 
     @Then("the user should see the “Pagination” heading")
@@ -102,4 +116,8 @@ public class Project5Steps {
 
         }
     }
+=======
+
+
+>>>>>>> origin/master
 }
